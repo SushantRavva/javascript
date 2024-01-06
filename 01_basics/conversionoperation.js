@@ -29,3 +29,36 @@ console.log(booleanIsLoggedIn);
 // 1 => true: 0 => false
 // "" => false
 // "sushant" => true
+
+
+
+// Operations
+
+console.log("1"+2); //12
+console.log(1+"2"); //12
+console.log("1"+2+2); //122
+console.log(1+2+"4"); //34
+console.log("1"+2+"3"); //123
+console.log(1+"2"+3); //123
+
+
+// postfix increment
+
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 3n+1; y2 is 3n
+
+
+// prefix increment
+
+let x1 = 3;
+const y1 = ++x1;
+// x1 is 4; y1 is 4
+
+let x3 = 3n;
+const y3 = ++x3;
+// x3 is 3n+1; y3 is 3n+1
